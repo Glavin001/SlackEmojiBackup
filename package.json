@@ -1,0 +1,23 @@
+{
+  "name": "slackemojibackup",
+  "version": "1.0.0",
+  "description": "Backup custom Slack emojis",
+  "main": "DownloadEmojis.js",
+  "scripts": {
+    "start": "node DownloadEmojis.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glavin001/SlackEmojiBackup.git"
+  },
+  "author": "Glavin Wiechert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Glavin001/SlackEmojiBackup/issues"
+  },
+  "homepage": "https://github.com/Glavin001/SlackEmojiBackup#readme",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}
